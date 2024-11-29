@@ -1,7 +1,6 @@
 .description {
-    /* Colocar uma largura máxima para ficar mais confortável de ler */
+    /* Colocar uma largura máxima e um line-height maior para ficar mais confortável de ler */
     max-width: 35rem;
-    line-height: 1.6rem;
 }
 .description > h1 {
     min-width: max-content;
