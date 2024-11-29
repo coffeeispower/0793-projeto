@@ -4,10 +4,10 @@
     height: 20rem;
 }
 .language-card-outside {
-    border: 1px solid var(--surface1);
+    /* border: 1px solid var(--surface1);
     border-radius: 0.5rem;
+    background: var(--crust); */
     padding: 0.3rem;
-    background: var(--crust);
 }
 .language-card-header {
     display: flex;
@@ -23,6 +23,7 @@
     padding: 0.5rem;
     display: grid;
     margin-top: 0.25rem;
+    width: min-content;
 }
 .language-card-inside > div {
     display: flex;
