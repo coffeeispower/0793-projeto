@@ -1,0 +1,35 @@
+#introduction > div:nth-child(2) {
+    gap: 16px;
+    flex-wrap: wrap;
+    height: 20rem;
+}
+.language-card-outside {
+    border: 1px solid var(--surface1);
+    border-radius: 0.5rem;
+    padding: 0.3rem;
+    background: var(--crust);
+}
+.language-card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.30rem;
+    font-family: var(--font-family-mono);
+}
+
+.language-card-inside {
+    background-color: var(--mantle);
+    border-radius: 0.5rem;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    display: grid;
+    margin-top: 0.25rem;
+}
+.language-card-inside > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.language-card-inside > div > img {
+    height: 2.5rem;
+    border-radius: 0.5rem;
+}

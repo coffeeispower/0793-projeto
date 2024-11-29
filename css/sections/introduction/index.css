@@ -1,0 +1,18 @@
+@import url("./languages.css");
+@import url("./description.css");
+
+#introduction {
+    display: flex;
+    /* Descer para baixo quando não tem mais espaço */
+    flex-wrap: wrap;
+}
+#introduction > div {
+    /* Fazer os dois laos ocuparem o máximo de espaço que conseguirem */
+    flex: 1;
+    padding: 32px;
+
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
