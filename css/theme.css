@@ -55,3 +55,6 @@ svg.lucide {
 b {
 	color: var(--peach);
 }
+p {
+    line-height: 1.6rem;
+}
