@@ -32,6 +32,8 @@ body {
 	background-color: var(--base);
 	color: var(--text);
 	font-size: 1rem;
+	margin: 0;
+	padding: 0
 }
 
 a {
@@ -56,9 +58,5 @@ b {
 	color: var(--peach);
 }
 p {
-<<<<<<< .merge_file_DQhAuS
-    line-height: 1.5rem;
-=======
     line-height: 1.6rem;
->>>>>>> .merge_file_jcvJq1
 }
