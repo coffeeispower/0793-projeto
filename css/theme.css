@@ -60,3 +60,7 @@ b {
 p {
     line-height: 1.6rem;
 }
+
+.string {
+	color: var(--green);
+}
