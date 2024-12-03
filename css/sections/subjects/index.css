@@ -1,0 +1,22 @@
+#subjects > h1 {
+    text-align: center;
+    
+}
+
+#subjects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin: 32px;
+    row-gap: 32px;
+}
+
+#subjects-grid > * {
+    width: 300px;
+    padding: 20px;
+    background-color: var(--mantle);
+    border: var(--surface0) 1px solid;
+    border-radius: 0.5rem;
+}
+#subjects-grid > div > h3 {
+    color: var(--maroon);
+}

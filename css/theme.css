@@ -56,5 +56,9 @@ b {
 	color: var(--peach);
 }
 p {
+<<<<<<< .merge_file_DQhAuS
     line-height: 1.5rem;
+=======
+    line-height: 1.6rem;
+>>>>>>> .merge_file_jcvJq1
 }
