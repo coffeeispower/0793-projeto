@@ -1,0 +1,21 @@
+.estagios-logos > img {
+    height: 50px;
+    border-radius: 0.25rem;
+}
+.estagios-logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    padding: 3rem;
+    gap: 1rem;
+}
+#estagios {
+    padding: 32px;
+}
+
+#estagios > h1 {
+    text-align: center;
+}
