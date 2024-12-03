@@ -1,0 +1,15 @@
+footer {
+    border-top: solid 1px var(--surface2);
+    background-color: var(--mantle);
+    width: auto;
+    padding: 1rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+footer > .escola > p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.25rem;
+    
+}
