@@ -29,8 +29,8 @@
     gap: 0.5rem;
     padding: 0.5rem;
     margin-top: 0.25rem;
-    display: grid;
-    grid-template-columns: repeat(5, 2.5rem);
+    display: flex;
+    /* grid-template-columns: repeat(5, 2.5rem); */
     width: max-content;
     justify-items: center;
     align-items: center;

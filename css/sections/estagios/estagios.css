@@ -1,0 +1,47 @@
+.estagios-logos > img {
+    height: 50px;
+    border-radius: 0.25rem;
+    animation: scroll-infinito 5s linear infinite;
+    margin: 1rem;
+}
+.monochrome {
+    filter: brightness(0);
+}
+.estagios-logos {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    padding: 3rem;
+    overflow-x: visible;
+
+}
+
+#estagios > h1 {
+    text-align: center;
+}
+
+.estagios-horas-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+    padding: 1.5rem 0px;
+}
+.estagios-horas-hora {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin: 0;
+    color: black;
+}
+
+/* @keyframes scroll-infinito {
+    0% {
+        transform: translateX(-50vw);
+    }
+    100% {
+        transform: translateX(100vw);
+    }
+} */

@@ -55,8 +55,8 @@ h6 {
 }
 
 svg.lucide {
-    width: 0.9rem;
-    height: 0.9rem;
+    width: 2ch;
+    height: 2ch;
 }
 b {
     color: var(--peach);

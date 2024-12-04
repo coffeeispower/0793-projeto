@@ -27,8 +27,6 @@
     }
 }
 
-/* @media (min-width: 1536px) {
-	.container {
-		max-width: 1536px;
-	}
-} */
+.desvanecer-lados {
+    mask-image: linear-gradient(90deg, transparent 0%, black 20%, black 80%, transparent 100%);
+}
