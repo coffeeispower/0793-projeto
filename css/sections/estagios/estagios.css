@@ -9,12 +9,12 @@
 }
 .estagios-logos {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     align-items: center;
     align-content: center;
     padding: 3rem;
-    overflow-x: visible;
-
+    margin: 0;
+    overflow: hidden;
 }
 
 #estagios > h1 {
@@ -27,21 +27,17 @@
     align-items: center;
     justify-content: space-around;
     align-items: center;
-    gap: 3rem;
+    gap: 5rem;
     padding: 1.5rem 0px;
+    flex-wrap: wrap;
 }
 .estagios-horas-hora {
     font-size: 2rem;
     line-height: 2.5rem;
     margin: 0;
     color: black;
+    min-width: max-content;
 }
-
-/* @keyframes scroll-infinito {
-    0% {
-        transform: translateX(-50vw);
-    }
-    100% {
-        transform: translateX(100vw);
-    }
-} */
+#estagios > * {
+    margin: 32px;
+}

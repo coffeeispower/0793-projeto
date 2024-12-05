@@ -23,6 +23,6 @@
     background-color: var(--base);
     text-align: center;
 }
-#subjects {
-    padding: 32px;
+#subjects-grid {
+    margin: 32px;
 }

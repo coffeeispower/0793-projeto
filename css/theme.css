@@ -55,11 +55,10 @@ h6 {
 }
 
 svg.lucide {
-    width: 2ch;
-    height: 2ch;
+    height: 1rem;
 }
 b {
-    color: var(--peach);
+    color: black;
 }
 p {
     line-height: 1.6rem;
@@ -67,4 +66,37 @@ p {
 
 .string {
     color: var(--green);
+}
+
+.text-gradient-1 {
+    background: linear-gradient(90deg, var(--sky) 20%, var(--blue) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+
+.text-gradient-2 {
+    background: linear-gradient(90deg, var(--red) 0%, var(--maroon) 40%, var(--peach) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+.text-gradient-3 {
+    background: linear-gradient(90deg, var(--green) 0%, var(--sapphire) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+}
+
+.text-gradient-4 {
+    background: linear-gradient(90deg, var(--mauve) 0%, var(--blue) 40%, var(--sky) 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
 }
