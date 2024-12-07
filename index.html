@@ -9,11 +9,22 @@
 </head>
 
 <body>
+    <nav class="container">
+        <div id="nav-container">
+            <a href="#">
+                <img src="images/logo.png" alt="logo" id="nav-logo">
+            </a>
+            <div id="nav-links">
+                <a class="nav-link" href="#subjects"> <i data-lucide="book-marked" style="height: 1rem"></i>Disciplinas</a>
+                <a class="nav-link" href="#estagios"> <i data-lucide="building" style="height: 1rem"></i>Estágios</a>
+            </div>
+        </div>
+    </nav>
     <section id="introduction" class="container">
         <div>
             <div class="description">
-                <h1 style="color: var(--surface1); font-family: var(--font-family-mono); font-weight: normal;">🚀
-                    console.log(<span class="string" style="font-weight: 900;">"Hello World"</span>)</h1>
+                <h1 style="font-family: var(--font-family-mono); font-weight: normal;">🚀
+                    <span style="color: var(--red)">console</span>.<span style="color: var(--blue)">log</span>(<span class="string" style="font-weight: 900;">"Hello World"</span>)</h1>
                 <p>
                     Aprende a criar aplicações e experiências com programação no curso de <b>Informática e Sistemas</b>
                     da <b>Jaime Magalhães Lima</b>.
@@ -51,29 +62,29 @@
     </section>
 
     <section id="subjects" class="container">
-        <h1 style="font-size: 200%">👩‍🏫 <span class="text-gradient-4">Disciplinas Práticas do Curso</span></h1>
+        <h1 style="display: flex; align-items: center; justify-content: center; gap: 1rem; font-size: 2rem;"><i data-lucide="book-marked" style="height: 4rem"></i>Disciplinas Práticas do Curso</span></h1>
         <div id="subjects-grid">
             <div>
-                <h3 class="text-gradient-1" style="color: black; font-weight: 600;"><i data-lucide="code-xml"></i>
+                <h3 class="text-gradient-1" style="color: black; font-weight: 600;"><i data-lucide="code-xml" style="height: 1.2ch"></i>
                     Programação</h3>
                 <p>Disciplina que ensina <b>lógica</b>, <b>algoritmos</b> e <b>linguagens de programação</b>,
                     capacitando alunos a desenvolver soluções digitais, automatizar processos e criar programas
                     funcionais para diversas aplicações.</p>
             </div>
             <div>
-                <h3 class="text-gradient-2" style="color: black; font-weight: 600"><i data-lucide="layout-grid"></i>
+                <h3 class="text-gradient-2" style="color: black; font-weight: 600"><i data-lucide="layout-grid" style="height: 1.2ch"></i>
                     Aplicações Informáticas</h3>
                 <p>Disciplina focada em ferramentas digitais e softwares de produtividade, includindo softwares como <b
                         class="text-gradient-4">Word</b>, <b class="text-gradient-2">Powerpoint</b> e <b class="text-gradient-3">Excel</b>.</p>
             </div>
             <div>
-                <h3 class="text-gradient-3" style="color: black; font-weight: 600"><i data-lucide="ethernet-port"></i>
+                <h3 class="text-gradient-3" style="color: black; font-weight: 600"><i data-lucide="ethernet-port" style="height: 1.2ch"></i>
                     Arquitetura de redes e computadores</h3>
                 <p>Disciplina que explora estruturas de redes e hardware, ótimo para <b>quem quer aprender a montar
                         computadores</b>.</p>
             </div>
             <div>
-                <h3 class="text-gradient-4" style="color: black; font-weight: 600"><i data-lucide="database"></i>
+                <h3 class="text-gradient-4" style="color: black; font-weight: 600"><i data-lucide="database" style="height: 1.2ch"></i>
                     Sistemas de informação e bases de dados</h3>
                 <p>Ensinamos a como como utilizar sistemas de bases de dados como <b>MySQL</b>, <b
                         style="color: var(--blue)">PostgreSQL</b> para guardar informações da empresa.</p>
@@ -82,7 +93,7 @@
     </section>
 
     <section id="estagios" class="container">
-        <h1 style="font-size: 250%; margin-left: auto; margin-right: auto" class="text-gradient-1">Estágio</h1>
+        <h1 style="font-size: 250%;"><span class="text-gradient-1">Estágio</span></h1>
         <div class="desvanecer-lados">
             <marquee scrollamount="15" class="estagios-logos">
                 <img src="images/parcerias/chip7.png" alt="chip7">
