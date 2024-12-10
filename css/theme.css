@@ -108,8 +108,6 @@ svg.lucide {
 ::selection {
     background-color: var(--mauve);
     color: var(--base);
-    border-radius: 10px;
-
     -webkit-text-fill-color: initial;
     -moz-text-fill-color: initial;
     background-clip: initial;
