@@ -1,7 +1,17 @@
 .description {
     /* Colocar uma largura máxima e um line-height maior para ficar mais confortável de ler */
     max-width: 35rem;
+        /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.32);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.6px);
+    -webkit-backdrop-filter: blur(10.6px);
+    border: 1px solid rgba(0, 0, 0, 0.39);
+    padding: 1rem;
 }
 .description > h1 {
-    min-width: max-content;
+    min-width: fit-content;
+    background-color: transparent;
+    position: static;
 }
